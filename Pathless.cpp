@@ -8,8 +8,8 @@ void solve(){
     for(int i=0; i<n; i++){cin >> tmp; a[tmp]++;}
     if(k == a[1] + 2*a[2] || k >= a[2] + 2*a[2] + 2){cout << -1 << '\n'; return;}
     for(int i=0; i<a[0]; i++) cout << 0 << ' ';
-    for(int i=0; i<a[1]; i++) cout << 1 << ' ';
     for(int i=0; i<a[2]; i++) cout << 2 << ' ';
+    for(int i=0; i<a[1]; i++) cout << 1 << ' ';
     cout << '\n';
 }
 
